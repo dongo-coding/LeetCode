@@ -20,6 +20,6 @@ public:
             nua_dx=nua_dx*10+nua_dx%10;
             x/=10;
         }
-        return x==nua_dx || x==nua_dx%10;
+        return x==nua_dx || x==nua_dx/10;
     }
 }; //use Mathematical approach way to check Palindrome string
