@@ -14,12 +14,15 @@ public:
 class Solution {
 public:
     bool isPalindrome(int x) {
-        if (x<0 || (x%10==0 && x!=0)) return false;
-        int nua_dx=0;
-        while(x>nua_dx){
-            nua_dx=nua_dx*10+nua_dx%10;
-            x/=10;
-        }
-        return x==nua_dx || x==nua_dx/10;
+    int temp=x;
+    long long res=0;
+    while(temp){
+        int rem=temp%10;
+        res=res*10+rem;
+        temp/=10;
+    }
+    if (x==0) return true;
+    else if (x==res && x>0) return true;
+    else return false;
     }
 }; //use Mathematical approach way to check Palindrome string
