@@ -12,7 +12,7 @@ public:
         }
      return a;   
     }
-}; //Brute- force ---> Complexibilty : O(n^2) ---> Can be optimized
+}; //Brute- force ---> Complexity: O(n^2) ---> Can be optimized
 
 -------------------------------------------------------------
   class Solution {
@@ -28,4 +28,4 @@ public:
         }
         return {};
     }
-}; // unordered_map --->Complexibility : O(n)---> Optimizer than Brute-force
+}; // unordered_map --->Complexity : O(n)---> Optimizer than Brute-force
