@@ -9,4 +9,4 @@ public:
         }
         return s[0].substr(0,ans);
     }
-};
+}; //kiem tra theo do dai cua chuoi, in ra tien to chung dai nhat
