@@ -15,6 +15,6 @@ public:
                 else if (s[i] == ']' && t != '[') return false;
             }
         }
-        return st.empty(); //use stack to check whether operator appear
+        return st.empty(); //dùng stack để kiểm tra xem có xuất hiện dấu ngoặc trong chuỗi hay không?
     }
 };
