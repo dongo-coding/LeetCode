@@ -15,6 +15,6 @@ public:
                 else if (s[i] == ']' && t != '[') return false;
             }
         }
-        return st.empty();
+        return st.empty(); //use stack to check whether operator appear
     }
 };
